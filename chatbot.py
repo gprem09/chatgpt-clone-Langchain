@@ -1,6 +1,6 @@
 import os
 import sys
-import constant
+#import a file with API='sh-.........'
 from langchain.chains import ConversationalRetrievalChain
 from langchain.chat_models import ChatOpenAI
 from langchain.document_loaders import DirectoryLoader
@@ -9,7 +9,7 @@ from langchain.indexes import VectorstoreIndexCreator
 from langchain.indexes.vectorstore import VectorStoreIndexWrapper
 from langchain.vectorstores import Chroma
 
-os.environ["OPENAI_API_KEY"] = constant.APIKEY
+#os.environ["OPENAI_API_KEY"] = constant.APIKEY Uncomment once you create and import a file with API key
 
 PERSIST = False
 PERSIST_DIRECTORY = "persist"

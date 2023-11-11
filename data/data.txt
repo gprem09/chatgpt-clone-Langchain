@@ -1,10 +1,1 @@
-Name: Gnanavel Premnath
-Age: 21
-Date of Birth: 9th July 2002
-Relationship Status: In a relationship
-Education: studying at Simon Fraser University
-Major: Computer Science
-Favorite Food: 
-- Gnanavel's favorite: Ramen, Biryani
-Background: 
-- Gnanavel: From India, grew up in Qatar
+// Input your data to train the model with your additional information
